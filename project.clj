@@ -1,4 +1,4 @@
-(defproject com.matthiasnehlsen/clj-webdriver "0.7.0-SNAPSHOT"
+(defproject com.matthiasnehlsen/clj-webdriver "0.7.1"
   :description "Clojure API for Selenium-WebDriver"
   :url "https://github.com/semperos/clj-webdriver"
   :license {:name "Eclipse Public License"
@@ -14,9 +14,9 @@
                                                 org.apache.httpcomponents/httpmime]]
                  [cheshire "2.1.0"]
                  [org.mortbay.jetty/jetty "6.1.25"]
-                 [org.seleniumhq.selenium/selenium-server "2.44.0"]
-                 [org.seleniumhq.selenium/selenium-java "2.44.0"]
-                 [org.seleniumhq.selenium/selenium-remote-driver "2.44.0"]
+                 [org.seleniumhq.selenium/selenium-server "2.45.0"]
+                 [org.seleniumhq.selenium/selenium-java "2.45.0"]
+                 [org.seleniumhq.selenium/selenium-remote-driver "2.45.0"]
                  [com.github.detro/phantomjsdriver "1.2.0"
                   :exclusion [org.seleniumhq.selenium/selenium-java
                               org.seleniumhq.selenium/selenium-server
